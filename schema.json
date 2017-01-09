@@ -1,0 +1,55 @@
+{
+	"fields": [
+		{
+			"name": "SARNum",
+			"title": "Subject Access Request Number",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "Directorate",
+			"title": "Assigned Directorate",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "DateReceived",
+			"title": "Date Request Received",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%d/%m/%Y"
+			}
+		},
+		{
+			"name": "DateOfValidRequest",
+			"title": "Date Of Valid Request",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%d/%m/%Y"
+			}
+		},
+		{
+			"name": "ResponseDate",
+			"title": "Response Date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%d/%m/%Y"
+			}
+		},
+		{
+			"name": "TotalNumOfDaysToRespond",
+			"title": "Total Number Of Days To Respond",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
